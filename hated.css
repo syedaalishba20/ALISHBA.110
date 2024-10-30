@@ -1,0 +1,237 @@
+
+  
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0; 
+    border-radius: 25px;
+    padding: 20px 20px;
+    width: 80%;
+    max-width: 600px; 
+}
+
+.nav-item {
+    text-align: center;
+    cursor: pointer;
+    color: #333;
+    position: relative;
+    transition: transform 0.2s ease, color 0.2s ease;
+  
+}
+
+
+.nav-item i {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+
+.nav-item span {
+    font-size: 14px;
+    opacity: 0;
+    
+    transform: translateY(10px);
+    transition: opacity 0.3s ease 0.2s, transform 0.3s ease 0.2s; 
+}
+
+/* Hover effect: icon moves up, then text appears */
+.nav-item:hover i { 
+    transform: translateY(-10px);
+  
+    color: #007BFF;
+}
+
+.nav-item:hover span {
+    opacity: 1;
+    transform: translateY(0);
+ 
+}
+
+ /*.nav-item:hover {
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0; 
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 80%;
+    max-width: 600px; 
+}
+
+.nav-item {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+    color: #333;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px); 
+    color: #007BFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.nav-item i {
+    font-size: 24px; 
+    display: block;
+    margin-bottom: 5px;
+}
+
+.nav-item span {
+    font-size: 14px; 
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+        padding: 10px;
+        width: 90%; 
+    }
+}
+    .nav-item {
+        margin: 10px 0; 
+    }
+
+    .nav-item i {
+        font-size: 20px; 
+    }
+
+    .nav-item span {
+        font-size: 12px; 
+    }
+
+
+@media (max-width: 480px) {
+    .navbar {
+        width: 95%;  
+    }
+}
+    .nav-item {
+        margin: 8px 0; 
+    }
+
+    .nav-item i {
+        font-size: 18px; 
+    }
+
+    .nav-item span {
+        font-size: 10px; 
+    }
+
+
+********************************************************************************************************
+
+/**
+{
+    margin:0 ;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family:'poppins', sans-serif;
+
+}
+:root{
+    ---clr:#000000;
+}
+body
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: var(---clr);
+}
+.navigation{
+    position:relative ;
+    width:400px ;
+    height: 70px;
+    background-color:#f8f8f8 ;
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+  ***  border-radius:10px ;
+}
+.navigation ul{
+    display:flex ;
+    width:350px ;
+}
+.navigation ul li {
+    position: relative;
+    list-style:none ;
+    width:70px ;
+    height:60px ;
+    z-index:2 ;
+}
+
+.navigation ul li a{
+    position:relative ;
+    display:flex ;
+    justify-content:center ;
+    align-items:center ;
+    flex-direction:column ;
+    width:100% ;
+    text-align:center ;
+    font-weight: 500;
+}
+.navigation ul li a .icon{
+position:relative;
+display:block;
+line-height:65px;
+font-size:1.5em;
+transition:0.5s;
+color:222327;
+    transform: translateY(-35px);
+    color: var(---clr);
+    justify-content: center;
+    padding-top: 30px;
+}
+.navigation ul li.active a .icon{
+transform:translateY(0);
+color:2196f3;
+
+.navigation ul li a .text{
+position: absolute;
+background:#fff;
+color:var(---clr) ;
+padding:2px 7px;
+border-radius:12px;
+font-weight:400;
+
+font-size: 0.75em;
+letter-spacing: 0.05em;
+transition:0.5s ;
+opacity:0 ;
+transform:translateY(30px) ;
+}
+
+.navigation ul li:active a .text{
+opacity: 1;
+transform: translateY(-4px);
+
+
+}*/
+
+
